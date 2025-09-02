@@ -1,12 +1,49 @@
-# React + Vite
+# 🎬 Web Series App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A dynamic and responsive web app built with **React (Vite)**.  
+This project showcases movies and web series with interactive features and multi-language support.  
+It is still under development, but already includes several reusable and scalable components.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🎥 Movie & Web Series Slides with smooth navigation  
+- 👍👎 Like/Dislike feature with persistent tracking (saved in local storage)  
+- 🌐 Accordion Language Selector – switch dynamically between **Hindi 🇮🇳** and **English 🇬🇧** using **i18next** and `useTranslation` hooks  
+- 📊 Fetches data from **JSONPlaceholder** and displays it in tabular format (planned upgrade: real movie API)  
+- 🔄 Reusable components for better scalability  
+- 📱 Fully responsive design across devices  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **React (Vite)**  
+- **JavaScript (ES6)**  
+- **i18next** for multi-language support  
+- **Bootstrap** for styling and responsiveness  
+
+---
+
+## 📌 Upcoming Enhancements
+
+- Connect with a real movie/TV API (instead of JSONPlaceholder)  
+- Add authentication (Sign in/Sign up)  
+- Improve UI/UX with animations  
+- Backend integration (MongoDB / Express)  
+
+---
+
+## 📂 Project Setup (Vite Default)
+
+This project was bootstrapped with [Vite](https://vitejs.dev/).
+
+### Install dependencies
+```bash
+npm install
+
+👨‍💻 Author
+
+Smrit Sharma
+MERN Developer | React & Frontend Enthusiast
