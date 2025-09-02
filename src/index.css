@@ -1,0 +1,33 @@
+
+/* index.css or App.css */
+html, body, #root{
+
+margin:0px;
+padding: 0px;
+box-sizing: border-box;
+background-color:  rgb(14, 14, 14);
+height:100%;
+
+  margin: 0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+
+
+
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+ 

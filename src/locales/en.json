@@ -1,0 +1,104 @@
+{
+"navbar":{
+"Signin":"Sign In"
+
+
+
+
+},
+"banner": {
+    "title1": "Unlimited movies, TV",
+    "title2": "shows and more",
+    "subtitle": "Starts at ₹149. Cancel at any time.",
+    "ready": "Ready to watch? Enter your email to create or restart your membership.",
+    "placeholder": "Email Address",
+    "button": "Get Started >"
+  },
+  "home": {
+    "trending": "Trending now",
+    "moreReasons": "More reasons to join",
+    "faq": "Frequently Asked Questions",
+    "ready": "Ready to watch? Enter your email to create or restart your membership.",
+    "placeholder": "Email Address",
+    "button": "Get Started"
+  },
+
+  
+
+  "faq": {
+    "faq1":{
+      "question":"What is Netflix?",
+      "answer":"Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more."
+    },
+    "faq2":{
+      "question":"How much does Netflix cost?",
+      "answer":"Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee."
+    },
+    "faq3":{
+      "question": "Where can I watch?",
+      "answer": "You can watch anywhere, anytime, on an unlimited number of devices."
+    },
+    "faq4":{
+      "question":"How do I cancel?",
+      "answer":"You can easily cancel your account online in two clicks. There are no cancellation fees."
+    },
+    "faq5":{
+      "question":"What can I watch on Netflix?",
+      "answer":"You can watch TV shows, movies, documentaries, and more."
+    },
+    "faq6":{
+      "question":"Is Netflix good for kids?",
+      "answer":"Netflix has a dedicated kids experience with parental controls."
+    }
+  },
+
+
+  
+  "moreReasons": {
+    "tv": {
+      "feature": "Enjoy on your TV",
+      "reason": "Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.",
+      "icon": "tv"
+    },
+    "download": {
+      "feature": "Download your shows to watch offline",
+      "reason": "Save your favourites easily and always have something to watch.",
+      "icon": "download"
+    },
+    "everywhere": {
+      "feature": "Watch everywhere",
+      "reason": "Stream unlimited movies and TV shows on your phone, tablet, laptop and TV.",
+      "icon": "everywhere"
+    },
+    "kids": {
+      "feature": "Create profiles for kids",
+      "reason": "Send children on adventures with their favourite characters in a space made just for them—free with your membership.",
+      "icon": "kids"
+    }
+  },
+  "footer": {
+  "questions": "Questions? Call 000-800-919-1694",
+  "links": {
+    "faq": "FAQ",
+    "help": "Help Centre",
+    "account": "Account",
+    "media": "Media Centre",
+    "investor": "Investor Relations",
+    "jobs": "Jobs",
+    "waysToWatch": "Ways to Watch",
+    "terms": "Terms of Use",
+    "privacy": "Privacy",
+    "cookie": "Cookie Preferences",
+    "corporate": "Corporate Information",
+    "contact": "Contact Us",
+    "speedTest": "Speed Test",
+    "legal": "Legal Notices",
+    "onlyOnNetflix": "Only on Netflix"
+  },
+  "netflixIndia": "Netflix India"
+}
+
+}
+
+
+

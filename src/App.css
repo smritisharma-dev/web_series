@@ -1,0 +1,57 @@
+
+
+.boxshedow{
+width:max-content;
+box-shadow:2px 2px 18px #ccc;
+
+ 
+}
+
+img {
+    height: 250px;
+    width: 200px;
+    border-radius: 5px;
+    object-fit:cover;
+    
+
+}
+
+.reasonDiv {
+width:fit-content;
+height: 250px;
+
+
+}
+/* styling of accordion*/
+
+accordion-button::after {
+  filter: invert(1); /* white "+" and "-" */
+}
+
+.accordion-button:not(.collapsed) {
+  box-shadow: none;
+}
+
+.img1{
+
+  height:100%;
+
+height: 70vh;
+    width: 100%;
+    object-fit: cover;
+    
+
+
+}
+
+  .hr-curve {
+  width: 100%;
+  height: 2px; /* thickness of the line */
+  background: linear-gradient(to right, blue, red);
+  border-radius: 50%; /* makes it curved */
+  transform: scaleY(2); /* exagge*/
+}
+    
+
+
+
