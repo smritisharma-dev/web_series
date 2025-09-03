@@ -3,7 +3,7 @@ import React from "react";
 
 //import Weblist from "./Weblist.jsx";
 //import MoreReasonDisplay from "./MoreReasonDisplay.jsx";
-import NetflixFAQ from "./NetflixFAQ;.jsx";
+import NetflixFAQ from "./NetflixFAQ.jsx";
 import Banner from "./Banner.jsx";
 import SliderComponent from "./Slidercomponent.jsx";
 import { useTranslation } from "react-i18next";
