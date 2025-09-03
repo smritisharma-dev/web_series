@@ -2,7 +2,7 @@
 const Data = [
   {
     id: 1,
-    image: "/img/aashram.jpg",
+    image: "../assets/img/aashram.jpg",
     title: "Aashram",
     subtitle: "Netflix",
     like: 0,

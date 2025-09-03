@@ -8,6 +8,7 @@ import Banner from "./Banner.jsx";
 import SliderComponent from "./Slidercomponent.jsx";
 import { useTranslation } from "react-i18next";
 import MoreReasonStru from "./MoreReasonStru.jsx";
+import netflix from '../assets/img/netflix.jpg';
 
 
 
@@ -22,7 +23,7 @@ const Home = () => {
         <div className="row position-relative text-white">
           
             <img className="img1 img-fluid w-100 opacity-25" style={{ height: '100vh', objectFit: 'cover' }}  
-            src="/img/netflix.jpg" alt="pic not found">
+            src={netflix}alt="pic not found">
             
             </img>
           

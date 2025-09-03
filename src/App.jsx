@@ -11,7 +11,7 @@ import Fetchdata from "./component/Fetchdata";
 const App = () => {
   return (
     // Add basename here
-    <BrowserRouter basename="/web_series">
+    <BrowserRouter basename="/web-series">
       <div className="app-container">
         <Nav />
         <main>

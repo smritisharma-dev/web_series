@@ -1,46 +1,42 @@
 import React, { useState } from 'react';
 
-
 function State() {
-  const [style1, setstyle] = useState({backgroundColor:"lightgray",fontFamily:"italic"})
-    
+  // State for background color and font style
+  const [style1, setStyle] = useState({
+    backgroundColor: "lightgray",
+    fontStyle: "italic"
+  });
 
-
-
-  const backToggle=()=>{
-    
-    
-    
-    
-    setstyle(pre=> ({
-      backgroundColor: pre.backgroundColor==='lightgray'? 'darkgray' : 'lightgray' ,
-  
-fontFamily: pre.fontFamily==="italic" ? 'bold':'italic'
-})
-
-
-
-
-
-)}
+  // Function to toggle background and font style
+  const backToggle = () => {
+    setStyle(prev => ({
+      backgroundColor: prev.backgroundColor === 'lightgray' ? 'darkgray' : 'lightgray',
+      fontStyle: prev.fontStyle === "italic" ? 'normal' : 'italic'
+    }));
+  };
 
   return (
-    <>
-      <div className='' style={{width:"100%", height:"100vh" , backgroundColor:
-        style1.backgroundColor , fontFamily:style1.fontFamily
-      }}>
-<div className='row'>
-  <div className='col-12 text-center my-5'>
-<p className=' display-3 text-danger'>it is {style1.fontFamily} font</p>
+    <div
+      style={{
+        width: "100%",
+        height: "100vh",
+        backgroundColor: style1.backgroundColor,
+        fontStyle: style1.fontStyle
+      }}
+    >
+      <div className="row">
+        <div className="col-12 text-center my-5">
+          <p className="display-3 text-danger">
+            It is {style1.fontStyle} font
+          </p>
+        </div>
       </div>
+      <div className="text-center">
+        <button className="btn btn-danger" onClick={backToggle}>
+          Change
+        </button>
       </div>
-      <button  className='btn btn-danger' onClick={backToggle}>
-
-       Change</button>
-    
     </div>
-    
-    </>
   );
 }
 
