@@ -1,8 +1,15 @@
-// Data.jsx
+import aashram from "../assets/img/aashram.jpg";
+import panchyat from "../assets/img/panchyat.jpeg";
+import kotafactory from "../assets/img/kotafactory.jpg";
+import mai from "../assets/img/mai.jpeg";
+import test from "../assets/img/test.jpg";
+import delhicrime from "../assets/img/delhicrime.jpeg";
+import specialoopsr from "../assets/img/Specialoopsr.jpeg";
+
 const Data = [
   {
     id: 1,
-    image: "../assets/img/aashram.jpg",
+    image: aashram,
     title: "Aashram",
     subtitle: "Netflix",
     like: 0,
@@ -10,7 +17,7 @@ const Data = [
   },
   {
     id: 2,
-    image: "/img/panchyat.jpeg",
+    image: panchyat,
     title: "Panchayat",
     subtitle: "Amazon Prime",
     like: 0,
@@ -27,7 +34,7 @@ const Data = [
   },
   {
     id: 4,
-    image: "/img/kotafactory.jpeg",
+    image: kotafactory,
     title: "Kota Factory",
     subtitle: "Netflix",
     like: 0,
@@ -35,7 +42,7 @@ const Data = [
   },
   {
     id: 5,
-    image: "/img/mai.jpeg",
+    image: mai,
     title: "Mai",
     subtitle: "Netflix",
     like: 0,
@@ -43,7 +50,7 @@ const Data = [
   },
   {
     id: 6,
-    image: "/img/test.jpg",
+    image: test,
     title: "Test",
     subtitle: "Netflix",
     like: 0,
@@ -51,7 +58,7 @@ const Data = [
   },
   {
     id: 7,
-    image: "/img/delhicrime.jpeg",
+    image: delhicrime,
     title: "Delhi Crime",
     subtitle: "Netflix",
     like: 0,
@@ -59,7 +66,7 @@ const Data = [
   },
   {
     id: 8,
-    image: "/img/Specialoopsr.jpeg",
+    image: specialoopsr,
     title: "Special Oops",
     subtitle: "Netflix",
     like: 0,
@@ -68,3 +75,4 @@ const Data = [
 ];
 
 export default Data;
+
