@@ -12,7 +12,7 @@ import'./App.css'
 import Fetchdata from './component/Fetchdata.jsx';
 
 import App from './App.jsx'
-import State from './component/State.Jsx';
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
