@@ -42,4 +42,4 @@ const NetflixFAQ = () => {
   );
 };
 
-export default NetflixFAQ;
+export default NetflixFAQ
