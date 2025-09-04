@@ -6,7 +6,7 @@ import test from "../assets/img/test.jpg";
 import delhicrime from "../assets/img/delhicrime.jpeg";
 import specialoopsr from "../assets/img/Specialoopsr.jpeg";
 
-const Data = [
+const Data =[
   {
     id: 1,
     image: aashram,

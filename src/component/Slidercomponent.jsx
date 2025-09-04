@@ -1,5 +1,5 @@
 import React from "react";
-import Data from "/Data.jsx"
+import Data from "./Data.jsx";
 import Fetchdata from "./Fetchdata.jsx";
 import { useState , useEffect } from "react";
 import { Link } from "react-router-dom";
@@ -11,6 +11,7 @@ const groupIntoChunks = (arr, size) =>
   Array.from({ length: Math.ceil(arr.length / size) }, (_, i) =>
     arr.slice(i * size, i * size + size)
   );
+
 
 
 
