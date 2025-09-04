@@ -1,5 +1,5 @@
 import React from "react";
-import Data from "./Data";
+import Data from"./Data.jsx"
 import Fetchdata from "./Fetchdata.jsx";
 import { useState , useEffect } from "react";
 import { Link } from "react-router-dom";
