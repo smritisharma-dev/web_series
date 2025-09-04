@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Nav from "./component/Nav";
 import Home from "./component/Home";
-import Weblist from "./component/Weblist";
+
 import Footer from "./component/Footer";
 import "./Slide1.css";
 import Fetchdata from "./component/Fetchdata";
@@ -18,7 +18,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/fetch" element={<Fetchdata />} />
-            <Route path="/weblist" element={<Weblist />} />
+          
           </Routes>
         </main>
         <Footer />
