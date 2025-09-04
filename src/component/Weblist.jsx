@@ -1,5 +1,5 @@
 import React from "react";
-import Data from "./Data.Jsx";
+import Data from "./Data.jsx";
 import Webstructure from "./Webstructure";
 
 const Weblist = () => {
