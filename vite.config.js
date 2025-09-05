@@ -5,4 +5,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: '/web-series/', 
   plugins: [react()],
+   build: {
+    outDir: 'dist',      // default, ensures dist/ folder
+    assetsDir: 'assets', // JS/CSS will go here
+  },
 })
